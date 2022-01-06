@@ -5,10 +5,13 @@ body{
 h1{
      font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange{
     color: orangered;
 }
-section{
+.flex-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -35,4 +38,24 @@ section{
      background-image: url(bg2.png);
      background-repeat: no-repeat;
      background-position: right;
+ }
+ .exprience-level{
+     width: 45%;
+     margin-left: 5%;
+     margin-right: 5%;
+     padding-left: 40px;
+    padding-right: 40px;
+     border-radius: 15px;
+     text-align: justify;
+     box-shadow: 10px 10px 40px yellowgreen;
+     border-left: 2px solid;
+     border-right: 2px solid;
+     border-top: 2px solid;
+     border-bottom: 2px solid;
+ }
+ .exprience-area{
+     background-image: url(lsd.png);
+     background-repeat: no-repeat;
+     background-position: left;
+    
  }
